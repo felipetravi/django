@@ -1,6 +1,5 @@
 venv
 .mypy_cache
-venv/Lib
 
 # Django #
 *.log
