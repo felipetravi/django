@@ -17,11 +17,7 @@ from http.client import HTTPResponse
 from django.contrib import admin
 from django.urls import path
 
-def my_view(request):
-    return HTTPResponse('Vai tomar no cu.')
-
 
 urlpatterns = [
-    path('admin/', admin.site.urls),  
-    path('sobre/', my_view)
+    path('admin/', admin.site.urls),    
 ]
